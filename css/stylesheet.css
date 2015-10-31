@@ -1,0 +1,115 @@
+body {background-color:#fff; padding: 0; margin: 0;}
+
+.header_title, .header_myname {text-align: center;}
+.header_title {font-size:2em; font-family: 'Bitter', serif;; padding-top:100px; color:#fff; text-shadow: 2px 1.5px #FFA500;}
+.header_myname{font-size:5em; font-family: 'Bitter', serif; color:#fff; letter-spacing:0.09em; text-shadow: 4px 2.5px #FFA500; padding-bottom:100px; font-weight:normal;} /*#daa520*/
+
+h1 { line-height: 1px; }
+
+.masthead {border-top: 10px solid #FFA500; position: relative;
+  background-image: url("https://scontent.xx.fbcdn.net/hphotos-xtp1/t31.0-8/1899342_506591256118021_2047943233_o.jpg"); background-repeat: no-repeat; background-size: cover; height: 400px; background-position: center; }
+
+.content_wrap {padding:0 20px; bottom:40px;
+padding-bottom:15px; width: 900px; margin: 0 auto; }
+
+.text_wrap {padding-bottom:2em; padding-top:5px; width:100%;
+margin:0 auto;}
+
+.float {display:inline-block; vertical-align:top; margin-top:15px; padding:0 10px;}
+
+.bio_wrap_english { width: 45%; padding-left: 15px;}
+.bio_wrap_japanese { width: 45%; padding-left: 15px;}
+
+.english_title { text-align:right; font-family: 'Bitter', serif; font-size:30px; font-weight:700; color:#525252;}
+.english_text {font-family: 'Playfair Display', serif, Helvetica, Arial; font-size:20px; color:black; text-align: justify; line-height: 1.4em;}
+
+.japanese_text {font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
+Osaka;  font-size: 16px; color:black; letter-spacing:-0.04em; line-height:1.85em; text-align: justify;}
+.japanese_title { font-family: Helvetica; font-size:30px; font-weight:bold; color:#525252;}
+
+footer { text-align:center; bottom:0px; font-family:Helvetica, Arial, "Times New Roman"; font-size:1.3em; font-weight: bold; padding-bottom: 20px;}
+footer ul {bottom:0px; padding: 0; margin: 0;}
+footer li {list-style: none; display:inline-block;}
+#foot_nav_contact {color:#ccc;}
+
+footer a {text-decoration:none; margin: 0 4px; color:#4b4b4b;
+  -o-transition:color .2s ease-out, background 2s ease-in;
+  -ms-transition:color .2s ease-out, background 2s ease-in;
+  -moz-transition:color .2s ease-out, background 2s ease-in;
+  -webkit-transition:color .2s ease-out, background 2s ease-in;
+  transition:color .2s ease-out, background 2s ease-in;
+}
+footer a:hover {color:#daa520; text-decoration:none;}
+
+
+
+  .button { display: none; }
+
+/*------------------------------------------------------------------*/
+
+@media only screen and (max-width: 560px) {
+
+    .button { display: block; position: absolute; bottom: 10%; left: 0; right: 0; text-align: center;}
+
+    .button a {color: white; text-decoration: none; font-family: "ヒラギノ角ゴ Pro W3"; font-size:20px; font-weight:700; text-shadow: 1px 1px #FFA500;}
+
+    .header_myname {font-size: 3.5em; text-shadow: 4px .5px #FFA500;}
+
+    /*.content_wrap {width: 100%;}*/
+
+    .content_wrap {width: 100%;}
+    .text_wrap {width: 100%;}
+
+    .bio_wrap_english { width: 90%; padding-left: 0px;}
+    .bio_wrap_japanese { width: 90%; padding-left: 0px;}
+
+    .float {display:block;}
+
+    .bio_wrap_english, .bio_wrap_japanese { padding-left: 0;}
+    
+    .english_text .japanese_text {text-align: none;}
+
+    .english_title, .japanese_title { text-align: center; font-size: 26px;}
+
+    
+
+    .english_text {font-size: 18px;}
+
+
+}
+
+@media only screen and (max-width: 960px) {
+    
+    .content_wrap {width: 100%;}
+
+    .bio_wrap_english {  padding-left: 0px;}
+    .bio_wrap_japanese {  padding-left: 5px;}
+    
+    .english_title, .japanese_title { text-align: center; font-size: 24px;}
+
+}
+
+
+
+/*  Media Query test 
+body { background-color: green; }
+
+.media_test { position: fixed;bottom: 150px; left: 0; right: 0; height: 15px; background-color: white; }
+
+@media only screen and (min-width: 1000px) {
+
+.media_test { background-color: red; }
+}
+
+@media only screen and (min-width: 1500px) {
+
+.media_test { background-color: yellow; }
+
+  body { background-color: blue; }
+  .bio_wrap_japanese {
+    padding-left: 0;
+  }
+  .float { display: block; }
+}
+*/
+
